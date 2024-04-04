@@ -47,6 +47,7 @@
     "nanostores": "^0.9.5",
     "plyr": "^3.7.8",
     "rehype-external-links": "^3.0.0",
+    "vite": "^5.2.8",
     "vue": "^3.4.15",
     "vue3-popper": "^1.5.0",
     "vue3-toastify": "^0.2.1"
