@@ -23,7 +23,6 @@ const m2dxOptions = {
 // https://astro.build/config
 export default defineConfig({
   site: "https://skyfz.github.io",
-  base: "/skypoint",
   integrations: [
     icon(),
     mdx({}),
