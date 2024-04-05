@@ -5,7 +5,7 @@ export default defineConfig({
 
   formatOptions: {
     jpg: {
-      quality: 70,
+      quality: 100,
       chromaSubsampling: "4:4:4",
       mozjpeg: true,
       trellisQuantisation: true,
@@ -13,13 +13,13 @@ export default defineConfig({
       optimiseScans: true,
     },
     png: {
-      quality: 70,
+      quality: 100,
       adaptiveFiltering: true,
       compressionLevel: 9,
       palette: true,
     },
     webp: {
-      quality: 50,
+      quality: 100,
       effort: 6.0,
     },
     avif: {
