@@ -38,9 +38,8 @@ if (style.container === "sm")
           transition:name={getAnimation(image)}
           style={`--animation-delay: ${(index + 1) * 150}ms`}
           class="fade-up  group relative overflow-hidden rounded-md"
-          href={`${getImageUrl(image)}?index=${index}&gallery=${gallery.join(
-            ",",
-          )}`}
+          href={"javascript:void(0)"}
+          //href={`${getImageUrl(image)}?index=${index}&gallery=${gallery.join(",",)}`}
         >
           <div class="transition-transform duration-1000 ease-in group-hover:scale-110 group-hover:duration-[2s]">
             <Picture

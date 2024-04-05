@@ -10,9 +10,7 @@ import { slugify } from "@util/helpers";
     !!links &&
       filters.map((filter) => (
         <a
-          href={`/${base_url}${
-            filter === active ? "" : `/${type || "tag"}/${slugify(filter)}`
-          }`}
+          href={`javascript:void(0)`}
           data-replace={filter}
           class={`btn-replace pb-1 text-xs uppercase tracking-widest  
 						${filter == active ? "font-bold" : ""} `}
